@@ -72,9 +72,10 @@ nav{
     transform: scale(0.95);
 }
 .nav-filler{
-    width: 3%;
+    /* width: 3%; */
 }
 nav >img{
+    transform: translateX(-9vmax);
     height: 15vh;
 }
 nav >ul{
@@ -853,7 +854,7 @@ h6{
 .page3-left-top >p,.page3-left-buttom >p,.page3-right-top >p,.page3-right-buttom >p{
     font-size: 1.5vmax;
     text-align: center;
-    font-family: 'Lugrasimo', cursive;
+    font-family: 'Edu SA Beginner', cursive;
     color: rgba(224, 243, 244, 0.784);
     line-height: 1.7vmax;
     width: 90%;
@@ -914,7 +915,7 @@ h6{
     text-align: center;
     color: whitesmoke;
     font-size: 1.7vmax;
-    font-family: cursive;   
+    font-family: 'Edu SA Beginner', cursive;
 }
 
 /* ============== PAGE 4 COMPLETE ================= */
@@ -977,7 +978,7 @@ h6{
 }
 .page5-info >form >button{
     padding: 0.5vmax 3vmax;
-    margin-left: 10vmax;
+    margin-left: 5vmax;
     margin-top: 0.5vmax;
     border-radius: 0.5vmax;
     border: none;
@@ -1014,9 +1015,11 @@ h6{
 
 }
 .footer{
-    height: 50vh;
-    width: 100%;
-    /* background-color: pink; */
+    border-radius: 0.7vmax;
+    height: 35vh;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(125,125,125);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -1024,12 +1027,18 @@ h6{
 .footer >ul >span{
     font-weight: 900;
     font-size: 2vmax;
-    color: rgb(213,193,139);
+    color: black;
+    background-color: rgb(125,125,125);
 }
 .footer >ul{
     display: flex;
     flex-direction: column;
     list-style: none;
     gap: 0.7vmax;
-    color: rgba(213, 193, 139, 0.71);
+    color: black;
+    background-color: rgb(125,125,125);
+}
+.footer > ul >li{
+    background-color: rgb(125,125,125);
+    color: black;
 }
